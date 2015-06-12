@@ -72,6 +72,7 @@ var app = app || {};
 		toggleCompleted: function () {
 			this.model.toggle("completed");
 		},
+		// Toggle the `"priority"` state of the model.
 		togglePriority: function() {
 			this.model.toggle("priority");
 		},

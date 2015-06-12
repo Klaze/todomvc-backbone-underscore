@@ -17,7 +17,7 @@ var app = app || {};
 			priority: false
 		},
 
-		// Toggle the `completed` state of this todo item.
+		// Toggle the `completed` or `priority` state of this todo item.
 		toggle: function (type) {
 			if(type === "completed") {
 				this.save({
